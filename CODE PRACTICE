@@ -1,0 +1,35 @@
+# FACTORIAL.
+integer=int(input())
+fact= 1 
+for i in range (1,integer+1):
+    fact=fact*i 
+print(fact)
+INPUT:
+4
+OUTPUT:
+24
+-------------------------------------------
+#FIND POWER OF NUM
+N=int(input())
+M=int(input())
+power=(N**M) 
+print(power)
+INPUT://SECOND LINE OF INPUT ACT AS POWER
+2
+3
+OUTPUT:
+8
+--------------------------------------------
+# NO.OF DIGITS UNTIL N
+num=int(input())
+sum=0
+count=1
+for i in range(1,num+1):
+    count=len(str(i))
+    sum=sum+count
+print(sum)
+INPUT://1-9 (SINGLE DIGITS & FROM 10 ONWARDS ITS 2-DIGITS SO, 9+2==>11)
+10
+OUTPUT:
+11
+-------------------------------------------------
