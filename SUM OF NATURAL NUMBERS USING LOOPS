@@ -1,0 +1,24 @@
+# SUM OF NATURAL NUMBERS USING WHILE LOOP
+N=int(input())
+counter=1
+sum = 0
+while counter <= N:
+    sum = (sum + counter)
+    counter=(counter + 1)
+print(sum)
+INPUT:
+6
+OUTPUT:
+21
+---------------------------------------------
+#SUM OF NATURAL NUMBERS USING FOR LOOP
+number=int(input())
+total=0
+for counter in range(number+1):
+    total=total+counter
+print(total)
+INPUT:
+6
+OUTPUT:
+21
+------------------------------------------------
