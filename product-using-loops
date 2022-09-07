@@ -1,0 +1,33 @@
+# Product of given nums using while loop
+num=int(input())
+
+counter=0
+product=1
+while  counter<num: 
+    n=int(input())
+    product=product*n
+    counter=counter+1
+print(product)
+INPUT:
+3
+2
+3
+7
+OUTPUT:
+42
+-----------------------------------------------------------
+ # Product of given nums using FOR loop  from m to n 
+ M=int(input())
+N=int(input())
+sum=1 
+for i in range(M,N+1):
+    sum=(i*sum)
+
+print(sum)
+INPUT:
+2
+5
+OUTPUT:
+120
+------------------------------------------------------------
+    
