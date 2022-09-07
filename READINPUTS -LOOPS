@@ -1,0 +1,33 @@
+# READ N - INPUTS USING WHILE LOOP
+num=int(input())
+counter=0
+while counter<num:
+    n=int(input())
+    print(n)
+    counter=counter+1
+INPUT:
+3
+8
+11
+25
+OUTPUT:
+8
+11
+25
+----------------------------------------
+# READ N - INPUTS USING FOR LOOP
+number=int(input())
+for counter in range(number):
+    N_inputs=int(input())
+    print(N_inputs)
+INPUT:
+3
+8
+11
+25
+OUTPUT:
+8
+11
+25
+----------------------------------------
+    
