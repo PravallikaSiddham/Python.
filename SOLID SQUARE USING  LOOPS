@@ -1,0 +1,25 @@
+# SOLID SQUARE USING WHILE LOOP
+asterisk=int(input())
+counter=0
+while counter<asterisk:
+    print("* " * asterisk)
+    counter=counter+1 
+INPUT:
+4
+OUTPUT:
+*  *  *  *
+*  *  *  *
+*  *  *  *
+*  *  *  *
+-----------------------------------------
+#SOLID SQUARE USING FOR LOOP
+asterisk = int(input())
+for star in range(1,asterisk+1):
+    print("* " * asterisk)
+INPUT:
+4
+OUTPUT:
+*  *  *  *
+*  *  *  *
+*  *  *  *
+*  *  *  *
