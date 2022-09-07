@@ -1,0 +1,55 @@
+# SOLID RECTANGLE USING WHILE LOOP-1
+M=int(input())
+N=int(input())
+counter=1
+while counter <=M:
+    print("* " * N)
+    counter=counter+1
+INPUT:
+2
+3
+OUTPUT:
+*  *  *
+*  *  *
+------------------------------------------
+#SOLID RECTANGLE USING WHILE LOOP-2
+M = int(input())
+N=int(input())
+counter=0
+while counter<M:
+    print("+ "*N)
+    counter=counter+1
+INPUT:
+3
+5
+OUTPUT:
++  +  +  +  + 
++  +  +  +  + 
++  +  +  +  + 
+--------------------------------------------
+#SOLID RECTANGLE USING FOR LOOP-1
+M_columns=int(input())
+N_rows = int(input())
+counter=1
+for counter in range(M_columns):
+    print("* " * (N_rows))
+INPUT:
+2
+3
+OUTPUT:
+*  *  *
+*  *  *
+--------------------------------------------
+#SOLID RECTANGLE USING FOR LOOP-2
+M=int(input())
+N=int(input())
+for i in range(M):
+    print("+ " * N)
+    i=i+1
+INPUT:
+3
+5
+OUTPUT:
++  +  +  +  + 
++  +  +  +  + 
++  +  +  +  + 
