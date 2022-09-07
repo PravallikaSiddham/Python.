@@ -1,0 +1,209 @@
+# SUM OF NATURAL NUMBERS USING WHILE LOOP
+N=int(input())
+counter=1
+sum = 0
+while counter <= N:
+    sum = (sum + counter)
+    counter=(counter + 1)
+print(sum)
+INPUT:
+6
+OUTPUT:
+21
+---------------------------------------------
+# SUM OF THE GIVEN NUMS
+num_of_input=int(input())
+counter=0
+sum=0
+while counter<num_of_input:
+    number=int(input())
+    sum=(sum+number)
+    counter=counter+1 
+print(sum)
+INPUT:
+3
+8
+11
+25
+OUTPUT:
+44
+---------------------------------------------
+#SUM OF NATURAL NUMBERS USING FOR LOOP
+number=int(input())
+total=0
+for counter in range(number+1):
+    total=total+counter
+print(total)
+INPUT:
+6
+OUTPUT:
+21
+------------------------------------------------
+#SUM OF NUM FROM M TO N
+M=int(input())
+N=int(input())
+sum=0
+for i in range(M,N+1):
+    sum=(sum+i)
+    
+print(sum)
+INPUT:
+2
+6
+OUTPUT:
+20
+-------------------------------------------------
+#SUM OF FIRST N EVEN NUMS
+n=int(input())
+sum=0
+co=1
+for i in range(2,n+1):
+    if(i%2)==0:
+        sum=(sum+i)
+        co=co+1 
+    i=i+1 
+print(sum)
+INPUT:
+6
+OUTPUT:
+12
+------------------------------------------------
+# SUM OF FIRST N ODD NUMS
+n=int(input())
+sum=0
+count=1 
+for i in range(1,n+1):
+    if(i%2)==1:
+        sum=sum+i 
+        count=count+1
+    i=i+1 
+print(sum)
+INPUT:
+6
+OUTPUT:
+9
+------------------------------------------------
+#SUM OF EVEN NUMS FROM M TO N
+m=int(input())
+n=int(input())
+sum=0
+count=1 
+for i in range(m,n+1):
+    if(i%2)==0:
+        sum=sum+i
+        count=count+1
+    i=i+1 
+print(sum)
+INPUT:
+2
+6
+OUTPUT:
+12
+--------------------------------------------------
+# SUM OF ODD NUMS FROM M TO N
+m=int(input())
+n=int(input())
+sum=0 
+count=1 
+for i in range(m,n+1):
+    if(i%2)==1:
+        sum=sum+i
+        count=count+1 
+    i=i+1
+print(sum)
+INPUT:
+5
+13
+OUTPUT:
+45
+-------------------------------------------------
+# SUM OF NUMS DIVISIBLE BY T
+T=int(input())
+M=int(input())
+N=int(input())
+div=1
+sum=0
+for i in range(M,N+1):
+    if(i%T)==0:
+        sum=sum+i 
+        div=div+1 
+    i=i+1 
+print(sum)
+INPUT:
+2 
+5
+9
+OUTPUT:
+14
+--------------------------------------------------
+# SUM OF SQUARES
+i=int(input())
+sum=0
+for i in range (i+1):
+    sum=sum+i*i
+        
+print(sum)
+INPUT:
+6
+OUTPUT:
+91
+---------------------------------------------------
+# SUM OF CUBES 
+num=int(input())
+sum=0
+for i in range(num+1):
+    sum=sum+(i*i*i)
+print(sum)
+INPUT://SUM OF NATURAL NUMS==1+2+3(CUBES)
+3
+OUTPUT:
+36
+-----------------------------------------------------
+# SUM OF AVG OF 10 NUMS
+sum=0
+for i in range(10):
+    num=int(input())
+    sum=sum+num 
+    avg=sum/10 
+print(sum)
+print(avg)
+INPUT:
+4
+7
+14
+25
+1
+8
+24
+38
+99
+10
+OUTPUT:
+230
+23.0
+---------------------------------------------------------
+#SUM OF DIGITS
+num=(input())
+sum=0
+for i in num:
+    sum=sum+int(i) 
+print(sum)
+INPUT:
+151893
+OUTPUT:
+27
+----------------------------------------------------------
+# SUM OF K POWERS
+N=int(input())
+K=int(input())
+sum=0
+for i in range(1,N+1):
+    sum=sum+(i**K)
+print(sum)
+INPUT:
+5
+3
+OUTPUT:
+225
+---------------------------------------------------------
+27
